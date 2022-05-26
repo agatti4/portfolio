@@ -4,8 +4,8 @@ export default function NavBar() {
     return <nav className="nav">
         <Link to="/" className="site-title">Site Name</Link>
         <ul>
-            <CustomLink to="/pricing">Pricing</CustomLink>
-            <CustomLink to="/about">About</CustomLink>
+            <CustomLink to="/portfolio/pricing">Pricing</CustomLink>
+            <CustomLink to="/portfolio/about">About</CustomLink>
         </ul>
     </nav>
 }
