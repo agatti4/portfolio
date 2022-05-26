@@ -1,36 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import { BrowserRouter, Route, Link, Routes } from 'react-router-dom'; 
-import Projects from './Projects.js'; 
-import Articles from './Articles.js'; 
-import About from './About.js'; 
-import './App.css';
+import NavBar from './NavBar.js';
 
 function App() {
-  return (
-    <BrowserRouter>
-      <div className="App">
-        <Routes>
-          <Route exact path="/" component={Projects} />
-          <Route path="/articles" component={Articles} />
-          <Route path="/about" component={About} />
-        </Routes>
-
-
-        <div className="navigation">
-          <img src={logo} className="logo-image" alt="Logo" />
-          <div className="navigation-sub">
-
-            <Link to="/" className="item">Projects</Link>
-            <Link to="/articles" className="item">Articles</Link>
-            <Link to="/about" className="item">About</Link>
-            <Link to="./project1/index.html" className="item">Project 1</Link>
-
-          </div>
-        </div>
-      </div>
-    </BrowserRouter>
-  );
+  return <NavBar />
 }
 
 export default App;
