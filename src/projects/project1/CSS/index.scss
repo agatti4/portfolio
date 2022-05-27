@@ -1,0 +1,179 @@
+:root {
+    --color1: #abd699;
+    --color2: #ffe26a;
+    --color3: #75c9b7;
+    --color4: #c7ddcc;
+    --color5: #16123f;
+  }
+
+@media only screen and (min-width:0) {
+    .project1 {
+        max-width: 392px;
+        min-width: 320px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: var(--color4);
+        padding-left: 2%;
+        padding-right: 2%;
+        font-family: sans-serif;
+        padding-top: 0.5rem;
+        height: 100vw;
+        min-height: 100%;
+    }
+    #text > h1 {
+        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+        font-size: 28px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        line-height: 26px;
+        text-decoration: underline;
+    }
+    
+    .underline {
+        text-decoration: underline;
+    }
+    
+    #text > h3 {
+        font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+        font-size: 16px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        line-height: 15px;
+    }
+    
+    #head {
+        background-image: url("../images/header2.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        box-shadow: -5px -2px 3px gray, 10px 10px 5px brown;
+        height: 210px;
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #text {
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+    .buttons > ul > li {
+        display: block;
+        margin-right: 20px;
+        color: #AA98CD;
+        font-weight: bold;
+        background-color: #AA98CD;
+        padding: 5px;
+        text-decoration: none;
+        overflow: none;
+        float: left;
+        width: 150px;
+        text-align: center;
+    }
+    
+    .buttons {
+        border: none;
+        display: block;
+        margin-left: 8rem;
+        margin-right: auto;
+        overflow: none;
+        width: 25%;
+    }
+    #info {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid black;
+        width: 60%;
+    }
+    
+    img#me {
+        margin-top: -20px;
+        display: block;
+        height: 200px;
+        float: right;
+        padding: 20px;
+        padding-top: 25px;
+    }
+    
+    td#bottom {
+        border: none;
+    }
+    
+    a:visited {
+        color: green;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: hotpink;
+        text-decoration: none;
+    }
+    
+    a:link {
+        color: green;
+        text-decoration: none;
+    }
+    
+  }
+  /*===================FOR SCREENS 393PX TO 487PX WIDE====================*/
+  @media only screen and (min-width:393px) {
+    .project1 {
+      max-width: 487px;
+      min-width: 393px;
+    }
+  }
+  /*===================FOR SCREENS 488PX TO 599PX WIDE====================*/
+  @media only screen and (min-width:488px) {
+    .project1 {
+      max-width: 599px;
+      min-width: 488px;
+    }
+  }
+  /*===================FOR SCREENS 600PX TO 767PX WIDE====================*/
+  @media only screen and (min-width:600px) {
+    .project1 {
+      max-width: 767px;
+      min-width: 600px;
+    }
+    .buttons {
+        margin-left: auto;
+    }
+  }
+  
+  /*===================FOR SCREENS 768PX TO 799PX WIDE====================*/
+  @media only screen and (min-width:768px) {
+    .project1 {
+      max-width: 799px;
+      min-width: 768px;
+    }
+
+  }
+  /*===================FOR SCREENS 800PX TO 1023PX WIDE====================*/
+  @media only screen and (min-width:800px) {
+    .project1 {
+      max-width: 1023px;
+      min-width: 800px;
+    }
+  }
+  /*===================FOR SCREENS 1024PX TO 1279PX WIDE====================*/
+  @media only screen and (min-width:1024px) {
+    .project1 {
+      max-width: 1279px;
+      min-width: 1024px;
+    }
+  }
+  /*===================FOR SCREENS 1280PX TO 1799PX WIDE====================*/
+  @media only screen and (min-width:1280px) {
+    .project1 {
+      max-width: 1799px;
+      min-width: 1280px;
+    }
+  }
+  /*===================FOR SCREENS 1800PX WIDE AND WIDER====================*/
+  @media only screen and (min-width:1800px) {
+    .project1 {
+      min-width: 1800px;
+  }
+}
