@@ -1,9 +1,9 @@
-import NavBar from './NavBar.js';
-import Home from './pages/Home.js';
-import Pricing from './pages/Pricing.js';
-import About from './pages/About.js';
-import Project1 from './projects/project1/Project1.js';
-import { Route, Routes } from "react-router-dom"
+import NavBar from './components/Navbar.js';
+import Home from './components/Home.js';
+import About from './components/About.js';
+import Projects from './components/Projects.js';
+import Contact from './components/Contact.js';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -11,10 +11,10 @@ function App() {
       <NavBar />
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/project1" element={<Project1 />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </>

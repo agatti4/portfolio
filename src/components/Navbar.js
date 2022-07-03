@@ -2,11 +2,12 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
 export default function NavBar() {
     return <nav className="nav">
-        <Link to="/" className="site-title">Anthony's Portfolio</Link>
+        <Link to="/home" className="site-title">Anthony's Portfolio</Link>
         <ul>
-            <CustomLink to="/pricing">Pricing</CustomLink>
+            <CustomLink to="/home">Home</CustomLink>
             <CustomLink to="/about">About</CustomLink>
-            <CustomLink to="/project1">Project 1</CustomLink>
+            <CustomLink to="/projects">Projects</CustomLink>
+            <CustomLink to="/contact">Contact</CustomLink>
         </ul>
     </nav>
 }
