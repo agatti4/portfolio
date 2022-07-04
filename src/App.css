@@ -27,7 +27,7 @@ body {
   background-color: var(--color1);
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
@@ -82,6 +82,7 @@ body {
 /* Body */
 .homeBody {
   margin-top: 40vh;
+  max-height: 100vh;
 }
 
 /* Box to keep blinker from going to edge of page */
@@ -141,7 +142,8 @@ body {
   50% { visibility: visible; }
 }
 
-.social {
+/* Loads Icons Later */
+/* .social {
   visibility: hidden;
   overflow: hidden;
   animation: 
@@ -152,4 +154,10 @@ body {
   from, to { visibility: hidden; }
   50% { visibility: visible; }
   100% { visibility: visible; }
+} */
+
+.socialBox {
+  position: relative;
+  bottom: -32.5vh;
+
 }
